@@ -26,13 +26,11 @@ Jupyter Notebook: For interactive data analysis.
 
 **Project Structure
 ├── data
-│   ├── raw_data.csv       # Original dataset
-│   ├── cleaned_data.csv   # Dataset after cleaning
+│   ├── walmart.csv       # Original dataset
+│   ├── walmart_clean.csv   # Dataset after cleaning
 ├── notebooks
-│   ├── analysis.ipynb     # Jupyter Notebook with analysis code
+│   ├── project.ipynb     # Jupyter Notebook with analysis code
 ├── sql
-│   ├── create_tables.sql  # SQL script to create database tables
-│   ├── queries.sql        # SQL queries for data extraction
-├── visuals
-│   ├── sales_trends.png   # Sample visualizations
+│   ├── project.sql  # SQL script to create database tables
+│   ├── project.sql        # SQL queries for data extraction
 ├── README.md              # Project documentation
